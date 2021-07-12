@@ -1,0 +1,129 @@
+body {
+  background-image: url('backg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  font-family: 'Yatra One', cursive;
+
+}
+
+
+
+
+	.intropics{ 
+				
+				margin-left: 9%;
+				padding: 5px;
+	 }
+
+
+   #start{height: 500px; width: 270px;
+          margin-left: 10px;
+          border: 2px solid black
+          }
+
+ a:link {
+  color: #fc9403;
+  cursor: default;
+  text-decoration: none;
+}
+
+ a:visited {
+  color: #fc9403;
+  cursor: default;
+text-decoration: none;
+}
+
+
+a:active {
+  color: #fc9403;
+  cursor: default;
+  text-decoration: none;
+}
+
+.links{font-size: }
+
+.left{background-color: blue;
+		width: 50%;
+		height: 500px}
+
+    .about1{width: 50%}
+
+#pic1{height: 300px; width: 300px;
+         
+      margin-left: 27%;
+
+
+
+
+      }
+
+#abt{ text-align: center;
+      color: #fc9403 ;
+      margin-top: -35px}
+
+.about1{background: #ff5454}
+
+#td1{width: 700px}
+
+      #td2{ ; height: 700px ;
+          display: block;
+          padding: 30px;
+          overflow:hidden;
+    overflow-y: scroll;
+
+
+
+    
+
+
+        }
+
+#scroll{overflow-y: scroll;}
+
+
+#study{opacity: 30%}
+
+
+#table2id1{width: 700px;
+            background: #ff5454;
+            height: 700px}
+
+#table2id2{ width: 700px;
+            background: url('skills.jpg');
+            background-size: cover;}
+
+
+#abt2{ text-align: center;
+      color: #fc9403 ;
+      margin-top: -35px;
+      font-size: 50px ;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
