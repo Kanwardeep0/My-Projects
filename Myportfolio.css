@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 
-  font-family: 'Yatra One', cursive;
+ font-family: 'Yatra One', cursive;
 
 }
 
@@ -19,7 +19,7 @@ body {
 
    #start{height: 500px; width: 270px;
           margin-left: 10px;
-          border: 2px solid black
+          border: 2px solid #FFD700
           }
 
  a:link {
@@ -41,11 +41,13 @@ a:active {
   text-decoration: none;
 }
 
+
 .links{font-size: }
 
 .left{background-color: blue;
 		width: 50%;
-		height: 500px}
+		height: 500px;
+    }
 
     .about1{width: 50%}
 
@@ -57,6 +59,7 @@ a:active {
 
 
       }
+      h1{font-family: 'Yatra One', cursive;}
 
 #abt{ text-align: center;
       color: #fc9403 ;
@@ -79,19 +82,22 @@ a:active {
 
         }
 
-#scroll{overflow-y: scroll;}
+#scroll{overflow-y: scroll;
+        }
 
 
 #study{opacity: 30%}
 
 
 #table2id1{width: 700px;
-            background: #ff5454;
-            height: 700px}
+            background: white;
+            height: 700px;
+            }
 
 #table2id2{ width: 700px;
             background: url('skills.jpg');
-            background-size: cover;}
+            background-size: cover;
+            }
 
 
 #abt2{ text-align: center;
@@ -101,9 +107,44 @@ a:active {
       }
 
 
+.skl{ display: block;
+      overflow: hidden;
+      overflow-y: scroll; }
+
+.skills1{ background:white ;
+          height: 690px;
+          display: block;
+          padding: 0px;
+
+}      
+
+
+#htmlimg{ height: 290px;
+          width: 300px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+           }
+#htmldetail{text-align: center;}
+
+.level{opacity: 30%}
+
+.w3-light-grey{text-align: center;}
+
+#next{text-align: right;
+      cursor: e-resize;}
 
 
 
+.skills2{background:white;
+          height: 690px;
+          display: block;
+          padding: 10px;}
+
+.skills3{background:white;
+          height: 690px;
+          display: block;
+          padding: 10px;}
 
 
 
