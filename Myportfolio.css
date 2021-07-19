@@ -1,9 +1,11 @@
 body {
-  background-image: url('backg.png');
+  background-image: url('background.png');
   background-repeat: no-repeat;
   background-size: 100%;
 
+
  font-family: 'Yatra One', cursive;
+ color
 
 }
 
@@ -19,7 +21,8 @@ body {
 
    #start{height: 500px; width: 270px;
           margin-left: 10px;
-          border: 2px solid #FFD700
+          border: 2px solid #FFD700;
+          opacity: 90%
           }
 
  a:link {
@@ -59,13 +62,13 @@ a:active {
 
 
       }
-      h1{font-family: 'Yatra One', cursive;}
 
 #abt{ text-align: center;
       color: #fc9403 ;
       margin-top: -35px}
 
-.about1{background: #ff5454}
+.about1{background: #ff5454;
+        opacity: 70%}
 
 #td1{width: 700px}
 
@@ -95,8 +98,10 @@ a:active {
             }
 
 #table2id2{ width: 700px;
-            background: url('skills.jpg');
+            background: url('back1.jpg');
             background-size: cover;
+            font-size: 10px;
+            opacity: 80%
             }
 
 
@@ -148,8 +153,18 @@ a:active {
 
 
 
+#table3{width: 700px;
+            background: url('contactback.jpg');
+            background-size: cover;
+            font-size: 10px;
+            opacity: 80%}
 
-
+#contact{text-align: center;
+      color: #fc9403 ;
+      margin-top: -35px;
+      font-size: 50px ;
+      font-family: 'Fuggles', cursive;
+    }
 
 
 
