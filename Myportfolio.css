@@ -134,7 +134,7 @@ a:active {
 
 .level{opacity: 30%}
 
-.w3-light-grey{text-align: center;}
+.w3-light-#828282{text-align: center;}
 
 #next{text-align: right;
       cursor: e-resize;}
@@ -166,18 +166,170 @@ a:active {
       font-family: 'Fuggles', cursive;
     }
 
+    .contactside{padding: 10px}
+
+
+.contactform{}
+
+
+#fname{ width: 45%;
+        background-color: #828282;
+        padding: 5px;
+        text-align: center;
+       
+       font-family: 'Yatra One', cursive;
+        font-size: 20px  }
+
+
+#lname{width: 45%;
+        background-color: #828282;
+       padding: 5px;
+       margin-left: 10px;
+       text-align: center;
+     font-family: 'Yatra One', cursive;
+     font-size: 20px}
+
+
+#emailid{width: 92.3%;
+        background-color: #828282;
+       padding: 5px;
+       text-align: center;
+       margin-top: 2px;
+     font-family: 'Yatra One', cursive;
+     font-size: 20px}
+
+#review{ margin-top: 2px;
+         background-color: #828282;
+         width: 92.3%;
+           text-align: center;
+     font-family: 'Yatra One', cursive;
+     font-size: 18px;
+     border-bottom: 4px solid #52debd
+       }    
+
+#submit{background-color: #828282;
+        margin-left: 84%
+        }
+
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: black
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-google {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+
+
+.fa-instagram {
+  color: white;
+}
+
+
+.social{font-size: 40px;
+        text-align: center; }
 
 
 
 
 
 
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
 
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
 
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
 
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
 
 
 

@@ -13,6 +13,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <style type="text/css">
@@ -357,7 +359,7 @@ h3{font-family: 'Yatra One', cursive;}
 
 
 </div>
-
+		
 
 <br><br>
 <table>
@@ -391,34 +393,43 @@ h3{font-family: 'Yatra One', cursive;}
 
 <td id="table2id1">
 
-				<div id="scroll" class="skl">
+<div class="contactside">
+	<br>
+	<h1>Contact me </h1>
+    <br>
+    <h3>I am interested in freelance oppertunities - especially ambitious or large projects.However, if you have 
+	any other requests,don't hesitate to contact me using below form either.
+    </h3>
 
-		<div class="skills1" style="padding: 20px">		
-				<img id="htmlimg" src="htmllogo.png">
-				<h1 id="htmldetail">HTML 5</h1>
-				<br>
-		<h3 id="htmldetail">HYPER TEXT MARK UP LANGUAGE</h3>
-		<br>
-		<h3 id="htmldetail"class="level">SKILL LEVEL: ADVANCED</h3>
-		
-		<br>
+<br>
+<form class="contactform">
+  
+  <input type="text" id="fname"  value="First Name">
+  <input type="text" id="lname"  value="Last name"><br>
+  <input type="email" id="emailid" value="Email"><br>
+  <textarea id="review" rows="4"> Message</textarea>
 
-		<div class="w3-light-grey">
+  <input type="submit" id="submit" value="Send">
 
-		<div class="w3-orange" style="height:24px;width:80%;">80%</div>
-		</div>
+<br>
 
+<div class="social">
 
-		<br><br>
-		<a href="#section2"><h3 id="next">Next</h3></a>
+<a href="https://www.facebook.com/kanwardeep.singh.7796" class="fa fa-facebook"></a>
+<a href="https://twitter.com/SinghVictor2000" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/in/kanwardeep-singh-a125501a3/" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/iam_kanwardeep/" class="fa fa-instagram"></a>
+<a href="https://www.snapchat.com/add/singhvictor0" class="fa fa-snapchat-ghost"></a>
+<a href="https://www.reddit.com/user/Kanwardeep0" class="fa fa-reddit"></a>
+<a href="https://github.com/Kanwardeep0/My-Projects" class="fa fa-github"></a>
+
+</div>
+
 
 
 
 
 </div>
-
-
-	</div>
 
 
 </td>
@@ -436,6 +447,65 @@ h3{font-family: 'Yatra One', cursive;}
 </table>
 
 
+
+<br><br>
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+  <p class="author">- John Keats</p>
+</div>
+
+<div class="mySlides">
+  <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+  <p class="author">- Ernest Hemingway</p>
+</div>
+
+<div class="mySlides">
+  <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+  <p class="author">- Thomas A. Edison</p>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"> < </a>
+<a class="next" onclick="plusSlides(1)"> > </a>
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
 
 
